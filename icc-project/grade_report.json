@@ -1,0 +1,146 @@
+{
+  "student": {
+    "student_id": "202320710",
+    "name": "배서연",
+    "team_members": [],
+    "course": "자동제어 - 2026 봄",
+    "ai_usage": "Gemini used for lateral controller D-term removal, ABS control logic architecture design, and script debugging"
+  },
+  "timestamp": "2026-06-23T18:26:16",
+  "quantitative": {
+    "score": 52.904999999999994,
+    "max": 70,
+    "pct": 75.578571428571422
+  },
+  "deductions": {
+    "amount": 0,
+    "reasons": []
+  },
+  "errors": [],
+  "breakdown": [
+    {
+      "sid": "A3",
+      "kpi": "yawRateOvershoot",
+      "value": 2.565352941231922,
+      "target": 10,
+      "score": 4,
+      "max": 4
+    },
+    {
+      "sid": "A3",
+      "kpi": "yawRateRiseTime",
+      "value": 0.133,
+      "target": 0.3,
+      "score": 4,
+      "max": 4
+    },
+    {
+      "sid": "A3",
+      "kpi": "yawRateSettling",
+      "value": 1.0190000000000001,
+      "target": 0.8,
+      "score": 2.905,
+      "max": 4
+    },
+    {
+      "sid": "A1",
+      "kpi": "sideSlipMax",
+      "value": 1.6049026137978288,
+      "target": 3,
+      "score": 6,
+      "max": 6
+    },
+    {
+      "sid": "A1",
+      "kpi": "LTR_max",
+      "value": 0.55064147874144287,
+      "target": 0.6,
+      "score": 5,
+      "max": 5
+    },
+    {
+      "sid": "A1",
+      "kpi": "lateralDevMax",
+      "value": 2.2302562545671689,
+      "target": 0.7,
+      "score": 0,
+      "max": 4
+    },
+    {
+      "sid": "A4",
+      "kpi": "understeerGradient",
+      "value": 0.00077018844380709393,
+      "target": 0.003,
+      "score": 5,
+      "max": 5
+    },
+    {
+      "sid": "A4",
+      "kpi": "sideSlipMax",
+      "value": 1.1764979770656454,
+      "target": 2,
+      "score": 5,
+      "max": 5
+    },
+    {
+      "sid": "A7",
+      "kpi": "sideSlipMax",
+      "value": 1.9144294132892579,
+      "target": 5,
+      "score": 8,
+      "max": 8
+    },
+    {
+      "sid": "A7",
+      "kpi": "LTR_max",
+      "value": 0.32711868691792734,
+      "target": 0.7,
+      "score": 7,
+      "max": 7
+    },
+    {
+      "sid": "B1",
+      "kpi": "stoppingDistance",
+      "value": 72.2992319914078,
+      "target": 40,
+      "score": 0,
+      "max": 5
+    },
+    {
+      "sid": "B1",
+      "kpi": "absSlipRMS",
+      "value": 0.72950347098814272,
+      "target": 0.1,
+      "score": 0,
+      "max": 5
+    },
+    {
+      "sid": "D1",
+      "kpi": "sideSlipMax",
+      "value": 1.6049026137978288,
+      "target": 4,
+      "score": 4,
+      "max": 4
+    },
+    {
+      "sid": "D1",
+      "kpi": "LTR_max",
+      "value": 0.5038873459990808,
+      "target": 0.6,
+      "score": 2,
+      "max": 2
+    },
+    {
+      "sid": "D1",
+      "kpi": "lateralDevMax",
+      "value": 2.2302562545671689,
+      "target": 1,
+      "score": 0,
+      "max": 2
+    }
+  ],
+  "final_auto": 52.904999999999994,
+  "ctrl_signature": "33ebb6f4b3e09bcda15100dbf95a02d7d3acc07d23ea7b996e5013fab96b7345",
+  "matlab_version": "26.1 (R2026a)",
+  "solver_used": "ode45"
+}
