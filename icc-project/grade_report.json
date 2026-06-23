@@ -6,7 +6,7 @@
     "course": "자동제어 - 2026 봄",
     "ai_usage": "Gemini used for lateral controller D-term removal, ABS control logic architecture design, and script debugging"
   },
-  "timestamp": "2026-06-23T18:26:16",
+  "timestamp": "2026-06-23T23:06:15",
   "quantitative": {
     "score": 52.904999999999994,
     "max": 70,
@@ -140,7 +140,7 @@
     }
   ],
   "final_auto": 52.904999999999994,
-  "ctrl_signature": "33ebb6f4b3e09bcda15100dbf95a02d7d3acc07d23ea7b996e5013fab96b7345",
+  "ctrl_signature": "e54f2f0ccaeab80b06c787849d2b2a5c60167cdc96ac9bf2db597e7cc9c8b270",
   "matlab_version": "26.1 (R2026a)",
   "solver_used": "ode45"
 }
